@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: projetServiceWeb
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://keycloak.bober.ovh/realms/master
